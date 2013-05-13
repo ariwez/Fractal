@@ -25,6 +25,8 @@ THE SOFTWARE.
 #ifndef _FRACTAL_H
 #define	_FRACTAL_H
 
+#include <QCoreApplication>
+
 #include "Point.h"
 #include <string>
 

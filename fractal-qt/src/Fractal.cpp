@@ -67,7 +67,10 @@ void Fractal::compute(IDraw& draw, FractalAlgo& algo, IProgress& progress)
       }
       draw(x, y, insideValue);
     }
+
     progress.setProgress(y*100/imageHeight);
+
+    QCoreApplication::processEvents();
   }
 }
 
